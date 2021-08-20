@@ -99,6 +99,10 @@ h3 {
     padding-bottom: 7px;
 }
 
+.container {
+    padding: 5%;
+}
+
 .rows {
     padding-left: 2%;
 }
