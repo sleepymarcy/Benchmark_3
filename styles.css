@@ -1,0 +1,111 @@
+element.style {
+  background-color: rgb(20, 20, 20);
+}
+
+.headercontainer {
+    background-color: rgb(20, 20, 20);
+    display: flex;
+    align-items: center;
+    padding: 0 2%;
+    height: 68px;
+}
+
+ul {
+    font-size: 14px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+.logo {
+    height: -7px;
+    max-width : 100px;
+}
+
+.leftnav {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    justify-content: flex-end;
+    position: absolute;
+    right: 4%;
+    top: 0;
+    height: 100%;
+}
+
+a {
+    color: #b3b3b3;
+}
+
+a:hover {
+    color: white;
+}
+
+
+.active {
+    color: white;
+    font-weight: bolder;
+}
+
+.searchBox {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 20%;
+}
+
+
+.notificationBell {
+    margin-right: 10%;
+}
+
+.stupidKid {
+    width: 100%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+body, html {
+    background: #141414;
+    color: #fff;
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+.sub-header{
+    align-items: center;
+    font-weight: bold;
+    font-size: 38px;
+    margin: 0;
+    padding: 0;
+}
+
+.label-genres {
+    border-color: white;
+    background-color: #141414;
+    color: white;
+    margin-left: 3%;
+    padding: 5px;
+    vertical-align: middle;
+}
+
+.container-fluid {
+    padding-left: 0;
+}
+
+h3 {
+    font-weight: bold;
+    padding-bottom: 7px;
+}
+
+.rows {
+    padding-left: 2%;
+}
+
+@media (min-width: 992px) {
+    .carousel-control-next,
+    .carousel-control-prev {
+      width: 5%;
+    }
+}
