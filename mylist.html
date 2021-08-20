@@ -87,9 +87,9 @@
     crossorigin="anonymous"></script>
 
   <script>
-
+    // fetch again to get the movies by category
     window.onload = async function () {
-      let response = await fetch("https://striveschool-api.herokuapp.com/api/movies/", {
+      let response = await fetch("https://striveschool-api.herokuapp.com/api/movies/Drama", {
         method: 'GET',
         headers: {
           "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MTFkMTIyMDJkNTI2MjAwMTViNmRkN2EiLCJpYXQiOjE2Mjk0NjczNzEsImV4cCI6MTYzMDY3Njk3MX0.o8hLDpG3PkA9hxXA4WFbMWj8BrvgMnbw1IpOavovsEQ"
