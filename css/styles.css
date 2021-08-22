@@ -40,7 +40,7 @@ body {
 }
 
 .genre-details {
-  padding: 1em;
+  padding: 0.5em;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -122,4 +122,17 @@ input[type="checkbox"] {
 
 .navbar-nav {
   font-size: 14px;
+}
+
+h2 {
+  font-weight: bold;
+}
+
+h4 {
+  font-weight: bold;
+  margin: 0!important;
+}
+
+.active {
+  font-weight: bold;
 }
