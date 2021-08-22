@@ -1,5 +1,5 @@
 :root {
-  --home-bg-color: #000;
+  --home-bg-color: #141414;
   --account-bg-color: #f3f3f3;
   --text-color: #fff;
   --primary-color: #e40a13;
@@ -8,6 +8,7 @@
 
 body {
   background: var(--home-bg-color);
+  overflow-x: hidden;
 }
 
 .btn {
@@ -117,4 +118,8 @@ input[type="text"]:focus {
 input[type="checkbox"] {
   transform: scale(1.5);
   margin-bottom: 10px;
+}
+
+.navbar-nav {
+  font-size: 14px;
 }
